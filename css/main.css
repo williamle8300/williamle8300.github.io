@@ -27,7 +27,7 @@ html {
   font-weight: bold;
 }
 
-.bokeh {z-index: -1;opacity: 0.2;}
+.bokeh {z-index: -1;opacity: 0.4;}
 
 /* all screens */
 @media only screen and (min-width: 379px) and (max-width: 10000000px) {
