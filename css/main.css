@@ -27,7 +27,11 @@ html {
   font-weight: bold;
 }
 
-.bokeh {z-index: -1;opacity: 0.4;}
+.bokeh {
+  z-index: -1;
+  position: relative;
+  opacity: 0.4;
+}
 
 /* all screens */
 @media only screen and (min-width: 379px) and (max-width: 10000000px) {
@@ -86,9 +90,10 @@ html {
     display: block;
     max-width: 100vw;
   }
+
+  .bokeh {filter: blur(2px);}
   
   .card .beauty-shot, .card .deets {
-    width: 100%;
   }
 
   .card .beauty-shot {margin-bottom: 1em;}
